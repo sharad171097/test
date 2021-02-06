@@ -6,7 +6,6 @@ phases:
       nodejs: 10
     commands:
       - echo Installing app dependencies...
-      - npm version patch
       - npm install
   build:
     commands:
